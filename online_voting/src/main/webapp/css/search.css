@@ -1,0 +1,11 @@
+
+        #search-div button{
+        height:5vh;
+        border-radius:10px;
+        }
+        #eleSearch{
+        width:70%;
+        height:5vh;
+        border-radius:15px; 
+        font-size:1.1rem;
+        }

@@ -1,0 +1,147 @@
+
+/* Header Styling */
+h1 {
+    text-align: left;
+    color: rgb(0, 0, 255);
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Chart Styling */
+canvas {
+	position:relative;
+	right:30vh;
+    display: block;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+    height:30vh;
+	width:100vh;
+    max-width: 90%;
+}
+#remaining-time{
+	font-family:cursive;
+	text-align:center;
+	font-weight:700;
+	min-width: 80vh;
+	max-width:90%; 
+	background-color:#fff;
+	margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Form Styling */
+form {
+	position:relative;
+	right:30vh;
+    background: #ffffff;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+form h2 {
+    color: rgb(0, 0, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="hidden"],
+select {
+    display: none;
+}
+
+input[type="submit"],
+button {
+    display: inline-block;
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Candidate List Styling */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+ol li:hover {
+    background: #f1f1f1;
+    transform: translateY(-2px);
+}
+
+ol li button {
+    background: #ff5722;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+ol li button:hover {
+    background: #e64a19;
+    transform: translateY(-3px);
+}
+.image-div{
+	position:absolute;
+	top:55vh;
+	left:130vh;
+	
+}
+.image-div img{
+	height:300px;
+	width:500px;
+}
+.quote{
+	position:absolute;
+	left:125vh;
+	bottom:40vh;
+	font-family:cursive;
+	font-weight:600;
+	font-size:1.1rem;
+}

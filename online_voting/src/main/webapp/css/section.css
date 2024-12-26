@@ -1,0 +1,29 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#ecedff;;
+        }
+
+        section {
+        	position:absolute;
+        	padding:20px;
+        	top: 10vh;     	
+        	width:94%;
+        	height:75vh;
+        	overflow: auto; 
+            background-color:#a9d4ff  ;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            margin: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section .section-header{
+        width:100%;
+        position:sticky;
+        top: -3vh;
+        background-color:#a9d4ff ;
+        z-index:11;
+        color:#270051;
+         box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+        }

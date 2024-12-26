@@ -1,0 +1,90 @@
+     ul{
+        display:flex;
+        flex-direction:column;
+        }
+        
+        li {
+        	list-style: none;
+            margin-bottom: -15vh;
+            
+        }
+        li .election_btn {
+        	text-align:left;
+        	font-size:1.2rem;
+            height: 15.3vh;
+            width: 40%;
+            background-color: #fff;
+            padding: 5px;
+            border: none;
+            border-radius: 15px;
+            z-index: 5;
+            position: relative;
+            transition: transform 0.8s ease, background-color 0.3s ease;
+            color:rgb(17, 0, 57);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        li .election_btn .remaining-time{
+        font-size:0.9rem;
+        position:absolute;
+        bottom:10px;
+        
+        }
+        li .election_btn:hover {
+            transform: translateX(20vh);
+            background-color:#b4ceff;
+            cursor: pointer;
+        }
+        #ResultBoard {
+            position: relative;
+            top: -17.5vh;
+            height: 15vh;
+            width: 46%;
+            background-color: rgb(35, 9, 96);
+            border-radius: 15px;
+            z-index: 0;
+        }
+        #ResultBoard p{
+        	font-family:cursive;
+        	font-size:1.1rem;
+        	font-weight:900;
+        	text-align:center;
+        	color:#fff;
+        	width:20%;
+        	height:100%;
+        	position:relative;
+			top:0;
+			left:2%;
+        	border-radius: 15px;
+        }
+        
+        #ResultBoard button{
+        background:linear-gradient(to bottom, #f3f3f3);
+        position:relative;
+        width:13%;
+		left:87%;
+		top:-12vh;
+        border-radius: 10px;
+        text-decoration:none;
+        font-size:0.8rem;
+        padding:2px;
+        
+        }
+        .image-div{
+        position:fixed;
+        top:40vh;
+        left:100vh;
+        
+        }
+        
+        .image-div img{
+        height:400px;
+        width:200px;
+        }
+        .quote{
+        position:fixed;
+        left:126vh;
+        top:63vh;
+        font-size:0.9rem;
+        font-family:cursive;
+        font-weight:600;
+        }

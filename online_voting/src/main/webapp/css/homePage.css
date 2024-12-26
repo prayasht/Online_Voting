@@ -1,0 +1,42 @@
+
+        #home{
+         box-sizing: border-box;
+		height:74vh;
+		display:block;
+		padding:20px;
+		width:97%;
+        }
+        #home div{
+        color:rgb(17, 0, 57);
+        width:60%;
+        font-size:1.2rem;
+        }
+      	#home #search-div{
+      	position:relative;
+      	top:8vh;
+      	}
+       	#home #showAllElections{
+       	text-decoration:none;
+       	padding-top:15px;
+       	padding-left:20%;
+       	display:block;
+       	width:5vh;
+        position:relative;
+        top:13vh;
+        height:6vh;
+        width:30%;
+        background: linear-gradient(to bottom, #6a0dad, #814dfb);
+		color: #ffffff;
+		border-radius:20px;
+		cursor:pointer;
+        }
+        #home .image-div{
+        	position:absolute;
+        	left: 130vh;
+        	height:fit-content;
+        	width:fit-content;
+        	bottom:0vh;
+        	z-index: 1;
+        	
+        }
+   
